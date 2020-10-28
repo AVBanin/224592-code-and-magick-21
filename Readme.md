@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [AVBanin](https://up.htmlacademy.ru/javascript/21/user/224592).
-* Наставник: `[Марк Коваленко](https://htmlacademy.ru/profile/id1434381)`.
+* Наставник: [Марк Коваленко](https://htmlacademy.ru/profile/id1434381).
 
 ---
 
