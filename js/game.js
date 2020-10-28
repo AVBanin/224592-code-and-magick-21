@@ -1,5 +1,27 @@
 'use strict';
 
+const fireballSize = 22;
+
+let getFireballSpeed = function (isLeftWind) {
+  return isLeftWind ? 2 : 5;
+};
+
+const wizardSpeed = 3;
+
+const wizardWidth = 70;
+
+let getWizardHeight = function () {
+  return 1.337 * wizardWidth;
+};
+
+let getWizardX = function (fieldSizeX) {
+  return (fieldSizeX - wizardWidth) * 0.5;
+};
+
+let getWizardY = function (fieldSizeY) {
+  return fieldSizeY / 3;
+};
+
 window.GameConstants = {
   Fireball: {
     size: fireballSize || 24,
